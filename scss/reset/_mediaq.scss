@@ -33,6 +33,11 @@
     }
     .slider-frame{
         display: none;}
+        .container-all-historias img{
+            width: 100%;
+            float:left;
+            
+        }
     // .no-en-mobile{
     //     display: none;}
     @include galeria-medias;
