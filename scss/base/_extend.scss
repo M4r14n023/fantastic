@@ -1,0 +1,59 @@
+@import "../var/variables";
+
+%boton-arriba{
+
+    
+
+.volver-arriba {
+    background: transparent;
+    cursor: pointer;
+    border: none;
+    padding: 16px 32px;
+    font-size: 15px;
+    letter-spacing: 3px;
+    position: fixed;
+    border-radius: 12px;
+    bottom: 10px;
+    right: 30px;
+}
+
+.volver-arriba::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(45deg, $color-principal, $color-secundario, $color-principal, $color-secundario, $color-principal, $color-secundario, $color-principal, $color-secundario);
+    background-size: 800%;
+    border-radius: 10px;
+    filter: blur(8px);
+    animation: glowing 20s linear infinite;
+}
+@keyframes glowing {
+    0% {
+        background-position: 0 0;
+    }
+
+    50% {
+        background-position: 400% 0;
+    }
+
+    100% {
+        background-position: 0 0;
+    }
+}
+
+.estilo-boton {
+    color: white;
+}
+
+.container {
+    display: flex;
+    position: absolute;
+    left: 70%;
+    top: 30%;
+    padding: 10px;
+}
+}

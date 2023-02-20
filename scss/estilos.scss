@@ -1,0 +1,38 @@
+@import "var/variables";
+@import "reset/reset";
+@import "base/mixin";
+@import "base/extend";
+
+/*Estilos de la barra de navegacion*/
+@include boton-busqueda;
+@import "reset/navbar";
+/*Fin de estilos de la barra de navegacion*/
+/* Estilos boton de volver arriba*/
+body{
+    @extend %boton-arriba;
+}
+/* fin boton de volver arriba*/
+
+/* Estilos del index*/
+@import "pages/index";
+/* Fin estilos del index*/
+
+/*Estilos Pages*/
+@import "pages/pages";
+/*Fin estilos Pages*/
+
+/*Estilos de Historias*/
+@import "pages/historias";
+/*Fin de estilos de Historias*/
+
+/*Estilos de Footer*/
+footer{
+    width: 100%;
+    padding-top: 40px;
+}
+    @import "reset/footer";
+/*fin estilos del footer*/
+
+/*estilos media queries*/
+@import "reset/mediaq";
+/*fin estilos de media queries*/

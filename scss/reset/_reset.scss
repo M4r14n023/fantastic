@@ -1,0 +1,24 @@
+
+@import "../var/variables";
+
+reset * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+// *{
+//     border: solid red; 
+    
+// }*
+body {
+    background: url("../img/presence.png");
+    display: grid;
+    grid-template-columns: 1, 1fr;
+}
+
+header {
+    background: $color-secundario;
+    opacity: 0.9;
+    width: 100%;
+    margin-bottom: 2px;
+}
