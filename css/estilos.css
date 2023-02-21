@@ -214,6 +214,11 @@ nav a:hover:after {
   display: flex;
   justify-content: center; }
 
+.video-history {
+  width: 50%;
+  height: 400px;
+  margin-bottom: 10px; }
+
 /* Fin estilos del index*/
 /*Estilos Pages*/
 .titulo-tierra-agua {
@@ -388,7 +393,7 @@ h2 {
     padding: 10px; }
   .gallery-item:nth-child(10) {
     grid-column-start: span 3;
-    grid-row-start: span 2; }
+    grid-row-start: span 1; }
   .pie-pagina .grupo-1 {
     width: 90%;
     grid-template-columns: repeat(1, 1fr);
@@ -426,6 +431,10 @@ h2 {
     padding: 10px; }
   .gallery-item:nth-child(10) {
     grid-column-start: span 3;
-    grid-row-start: span 2; } }
+    grid-row-start: span 1; }
+  .video-history {
+    width: 70%;
+    height: auto;
+    margin-bottom: 10px; } }
 
 /*fin estilos de media queries*/

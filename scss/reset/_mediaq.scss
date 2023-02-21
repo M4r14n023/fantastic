@@ -41,6 +41,11 @@
     // .no-en-mobile{
     //     display: none;}
     @include galeria-medias;
+    .video-history{
+        width: 70%;
+        height: auto;
+        margin-bottom: 10px;   
+    }
 }
 
 
