@@ -40,4 +40,9 @@ nav {
         transform-origin: left;
         transform: scaleX(1);
     }
+    .navbar-toggler-icon {
+        border: 2px solid $color-principal;
+        background-color: $color-principal;
+    }
+    
 
